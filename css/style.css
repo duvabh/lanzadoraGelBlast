@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: aqua;
+}
+
+main {
+    background-color: burlywood;
+}
+
+footer {
+    background-color: cadetblue;
+}
+
