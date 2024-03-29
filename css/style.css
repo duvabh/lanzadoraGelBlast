@@ -4,14 +4,76 @@
 }
 
 header {
-    background-color: aqua;
+    background-color: rgb(249, 188, 96);
+    width: 100%;
+}
+
+.shoppyBannerP {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 550;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 main {
-    background-color: burlywood;
+    width: 100vw;
+    height: 100vh;
 }
 
-footer {
-    background-color: cadetblue;
+.imagenBanner{
+    background-color: rgb(14, 21, 37);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.imagenBanner img {
+    width: 80%;
+}
+
+.infoGel {
+    background-color: rgb(14, 21, 37);
+}
+
+.infoGelTitle {
+    font-size: 50px;
+    color: #7945e3;
+    text-align: center;
+    padding-top: 20px;
+    font-family: "Permanent Marker", cursive;
+}
+
+.infoGelDescription {
+    color: aliceblue;
+    font-family: "Indie Flower", cursive;
+    font-size: 24px;
+    font-weight: 100;
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 15px;
+}
+
+.infoGelDescriptionLista {
+    list-style: none;
+    padding: 0;
+    color: aliceblue;
+    font-family: "Indie Flower", cursive;
+    font-size: 20px;
+    margin-left: 10%;
+    margin-top: 15px;
+    align-items: center;
+}
+
+.infoGelDescriptionLista li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* Espacio entre cada elemento */
+}
+
+.infoGelDescriptionLista img { 
+    width: 36px; /* Ajusta el ancho de las imágenes según sea necesario */
+    height: auto; /* Para mantener la proporción de aspecto */
+    margin-right: 10px; /* Espacio entre la imagen y el texto */
+}
+
 
